@@ -1,5 +1,5 @@
 ---
-title: "Solucion Desbloqueo Macbook Apple Watch"
+title: "Desbloquear Mac con Apple Watch no funciona (Solución)"
 date: 2019-09-07T19:16:58+02:00
 image: "erdi-ugurlu-unsplash.webp"
 draft: false
