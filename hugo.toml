@@ -1,0 +1,13 @@
+baseURL = 'https://laisladelfaro.com/'
+languageCode = 'es-es'
+title = 'La isla del faro'
+theme = "coyote"
+paginator = 6
+
+[outputs]
+  home = ['HTML', 'JSON']
+
+[pagination]
+  disableAliases = false
+  pagerSize = 6
+  path = 'posts'
