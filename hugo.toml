@@ -3,6 +3,7 @@ languageCode = 'es-es'
 title = 'La isla del faro'
 theme = "coyote"
 paginator = 6
+canonifyurls = true
 
 [params.meta]
   favicon = true
