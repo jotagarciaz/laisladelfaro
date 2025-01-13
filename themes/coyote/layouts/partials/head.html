@@ -6,7 +6,7 @@
 <title>{{ if not .IsHome }}{{ if .Title }}{{ .Title }} - {{ end }}{{ end }}{{ .Site.Title }}</title>
 
 {{ $sass := resources.Get "scss/style.scss" }}
-{{ $style := $sass | resources.ToCSS | minify | resources.Fingerprint "sha256" }}
+{{ $style := $sass | css.Sass | minify | resources.Fingerprint "sha256" }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{- if (eq .Layout "search") }}
@@ -15,3 +15,5 @@
   {{ $js := slice $fusejs $search | resources.Concat "js/bundle.js" | resources.Fingerprint "sha512" }}
   <script defer type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 {{- end }}
+
+<link rel="canonical" href="{{ .Permalink }}" />
