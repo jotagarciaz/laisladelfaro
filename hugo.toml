@@ -4,12 +4,14 @@ title = 'La isla del faro'
 theme = "coyote"
 paginator = 6
 canonifyurls = true
+enableRobotsTXT = true
 
 [params.meta]
   favicon = true
 
 [outputs]
-  home = ['HTML', 'JSON']
+  home = ['html', 'json', 'rss']
+  section = ['html', 'rss']
 
 [pagination]
   disableAliases = false
