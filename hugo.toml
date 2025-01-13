@@ -15,3 +15,8 @@ canonifyurls = true
   disableAliases = false
   pagerSize = 6
   path = 'posts'
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
