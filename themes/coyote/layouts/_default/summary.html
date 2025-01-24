@@ -2,7 +2,7 @@
   <a class="article__inner" href="{{ .Permalink }}">
     <div class="article__header">
       {{ $image := .Resources.GetMatch .Params.image }}
-      <img class="article__image" src="{{ $image.RelPermalink }}" />
+      <img class="article__image" src="{{ $image.RelPermalink }}" alt="" />
     </div>
     <div class="article__text">
       <h3 class="article__title">{{ .Title }}</h3>

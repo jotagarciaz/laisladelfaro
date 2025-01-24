@@ -2,7 +2,7 @@
 <div class="post">
   <div class="post__header">
     {{ $image := .Resources.GetMatch .Params.image }}
-    <img class="post__image" src="{{ $image.RelPermalink }}">
+    <img class="post__image" src="{{ $image.RelPermalink }}" alt="">
   </div>
 
   {{ with .Params.tags }}
