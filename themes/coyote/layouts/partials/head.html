@@ -17,7 +17,7 @@
 {{- end }}
 
 <link rel="canonical" href="{{ .Permalink }}" />
-<meta name="description" content="{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+<meta name="description" content="{{ if .Params.Description }}{{ .Params.Description }}{{ if .Summary }}{{ .Summary }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 {{ if .Params.Keywords }}
   <meta name="keywords" content="{{ delimit .Params.Keywords ", " }}">
 {{ end }}
