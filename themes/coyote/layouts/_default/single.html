@@ -8,7 +8,7 @@
   {{ with .Params.tags }}
   <div class="post__tags">
     {{ range . }}
-      <a class="post__tag" href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+      <a class="post__tag" href="{{ "tags/" | absURL }}{{ . | urlize }}" aria-label="{{ . }}">{{ . }}</a>
     {{ end }}
   </div>
   {{ end }}

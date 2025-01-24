@@ -1,5 +1,5 @@
 <article class="article">
-  <a class="article__inner" href="{{ .Permalink }}">
+  <a class="article__inner" aria-label="{{ .Title }}" href="{{ .Permalink }}">
     <div class="article__header">
       {{ $image := .Resources.GetMatch .Params.image }}
       <img class="article__image" src="{{ $image.RelPermalink }}" alt="" />
