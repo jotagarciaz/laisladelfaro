@@ -16,7 +16,7 @@ enableRobotsTXT = true
 [pagination]
   disableAliases = false
   pagerSize = 6
-  path = 'posts'
+  path = 'blog'
 
 [sitemap]
   changefreq = "weekly"
