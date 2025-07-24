@@ -6,9 +6,11 @@ paginator = 6
 canonifyurls = true
 enableRobotsTXT = true
 
+
 [params.meta]
   favicon = true
-
+  homeDescription = "Bienvenido a nuestra página de programación donde resolveremos retos de hackathon, hablaremos de noticias, compartiremos momentos y experiencias. ¡Únete a nosotros para una aventura en el mundo del código! Aumenta tus habilidades y comunícate con individuos como tú."
+  author = "JotaGarciaz"
 [outputs]
   home = ['html', 'json', 'rss']
   section = ['html', 'rss']
@@ -22,3 +24,9 @@ enableRobotsTXT = true
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
+
+[HTTPCache]
+  [HTTPCache.cache]
+    [HTTPCache.cache.for]
+      excludes = []
+      includes = ['**']
