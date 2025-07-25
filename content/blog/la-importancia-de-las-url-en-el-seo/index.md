@@ -4,6 +4,8 @@ date: 2017-11-13T20:57:19+02:00
 image: "philipp-waldhauer-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.3
 tags:
   - SEO
   - URL amigables

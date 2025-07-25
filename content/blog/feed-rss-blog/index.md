@@ -4,6 +4,8 @@ date: 2018-11-14T10:08:38+02:00
 image: "mark-pearson-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.5
 tags:
   - feed
   - rss

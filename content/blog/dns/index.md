@@ -4,6 +4,8 @@ date: 2017-11-03T19:45:01+02:00
 image: "robert-wiedemann-unsplash.webp"
 author: "JotaGarciaz"
 draft: false
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.4
 tags:
   - dirección ip
   - dns

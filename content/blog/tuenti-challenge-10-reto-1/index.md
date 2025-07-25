@@ -4,7 +4,9 @@ date: 2020-05-15T11:06:50+02:00
 image: "xavier-von-erlach-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
-tags:
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.9
+tags: 
   - tuenti
   - challenge
   - hackathon

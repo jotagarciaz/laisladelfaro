@@ -4,6 +4,8 @@ date: 2019-09-07T19:16:58+02:00
 image: "erdi-ugurlu-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.7
 tags:
   - MacOS
   - Mac

@@ -4,6 +4,8 @@ date: 2019-04-24T18:38:51+02:00
 image: "lawrence-hookham-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.5
 tags:
   - linux
   - raspberry pi

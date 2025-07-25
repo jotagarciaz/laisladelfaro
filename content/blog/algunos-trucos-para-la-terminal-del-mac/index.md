@@ -4,6 +4,8 @@ date: 2019-04-26T14:37:01+02:00
 image: "mark-hamilton-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.3
 tags:
   - tips
   - Mac

@@ -4,6 +4,8 @@ date: 2019-06-12T18:44:15+02:00
 image: "ricardo-iv-tamayo-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.9
 tags:
   - SSH
   - SCP

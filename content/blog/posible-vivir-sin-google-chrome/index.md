@@ -4,6 +4,8 @@ date: 2019-03-20T13:42:35+02:00
 image: "mikhail-chichkin-unsplash.webp"
 draft: false
 author: "Clare"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.7
 tags:
   - chrome
   - mozilla firefox

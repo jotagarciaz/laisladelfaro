@@ -4,6 +4,8 @@ date: 2019-02-20T14:19:25+02:00
 image: "angela-reay-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.7
 tags:
   - chrome
   - mozilla firefox

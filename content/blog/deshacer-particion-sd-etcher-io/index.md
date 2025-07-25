@@ -4,6 +4,8 @@ date: 2019-01-30T20:34:32+02:00
 image: "paulo-resende-unsplash.webp"
 draft: false
 author: "Clare"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.7
 tags:
   - raspberry
   - linux

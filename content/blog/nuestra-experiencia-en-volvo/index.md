@@ -4,6 +4,8 @@ date: 2019-02-20T18:56:35+02:00
 image: "srikanta-h-u-unsplash.webp"
 draft: false
 author: "Clare"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.9
 tags:
   - Android
   - VolvoCE

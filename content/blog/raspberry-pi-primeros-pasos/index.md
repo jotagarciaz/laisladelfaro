@@ -4,6 +4,8 @@ date: 2018-12-04T19:30:38+02:00
 image: "mercedes-mehling-unsplash.webp"
 draft: false
 author: "Clare"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.5
 tags:
   - linux
   - raspberry pi

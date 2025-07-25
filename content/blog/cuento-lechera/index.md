@@ -4,6 +4,8 @@ date: 2018-11-28T19:16:50+02:00
 image: "evgeni-tcherkasski-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.1
 tags:
   - emprendimiento
   - marketing

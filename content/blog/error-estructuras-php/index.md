@@ -4,6 +4,8 @@ date: 2019-07-10T18:54:26+02:00
 image: "tom-gainor-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.9
 tags:
   - PHP
   - Sintaxis Alternativa

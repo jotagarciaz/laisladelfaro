@@ -4,6 +4,8 @@ date: 2017-01-08T10:59:00+02:00
 image: "paulius-dragunas-lighthouse.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.5
 tags:
   - certificados ssl
   - entidades certificadoras

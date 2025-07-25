@@ -4,6 +4,8 @@ date: 2020-05-22T11:07:02+02:00
 image: "leslie-cross-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.9
 tags:
   - tuenti
   - challenge

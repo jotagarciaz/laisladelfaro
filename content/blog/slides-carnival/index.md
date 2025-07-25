@@ -4,6 +4,8 @@ date: 2018-10-17T23:02:08+02:00
 image: "everaldo-coelho-unsplash.webp"
 draft: false
 author: "Clare"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.5
 tags:
   - diseño
   - Google

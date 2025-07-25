@@ -4,6 +4,8 @@ date: 2017-10-13T18:38:32+02:00
 image: "grwood-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.7
 tags:
   - css
   - diseño

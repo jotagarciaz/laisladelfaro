@@ -4,6 +4,8 @@ date: 2019-07-16T13:42:35+02:00
 image: "james-qualtrough-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.7
 tags:
   - chrome
   - DNS

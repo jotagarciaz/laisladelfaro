@@ -4,6 +4,8 @@ date: 2018-12-19T22:34:36+02:00
 image: "joanna-unsplash.webp"
 draft: false
 author: "JotaGarciaz"
+lastmod: 2025-07-25T09:06:50+02:00
+priority: 0.9
 tags:
   - Apple
   - Pages
