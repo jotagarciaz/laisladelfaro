@@ -12,7 +12,7 @@ enableRobotsTXT = true
   homeDescription = "Bienvenido a nuestra página de programación donde resolveremos retos de hackathon, hablaremos de noticias, compartiremos momentos y experiencias. ¡Únete a nosotros para una aventura en el mundo del código! Aumenta tus habilidades y comunícate con individuos como tú."
   author = "JotaGarciaz"
 [outputs]
-  home = ['html', 'json', 'rss']
+  home = ['html', 'json', 'rss','llms','llmsfull']
   section = ['html', 'rss']
   taxonomy = ['html']
 
@@ -30,3 +30,17 @@ enableRobotsTXT = true
     [HTTPCache.cache.for]
       excludes = []
       includes = ['**']
+
+[outputFormats.llms]
+  baseName = "llms"
+  isPlainText = true
+  mediaType = "text/plain"
+  rel = "alternate"
+  root = true
+
+[outputFormats.llmsfull]
+  baseName = "llms-full"
+  isPlainText = true
+  mediaType = "text/plain"
+  rel = "alternate"
+  root = true
