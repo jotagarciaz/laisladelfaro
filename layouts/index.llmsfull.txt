@@ -1,7 +1,6 @@
 # {{ .Site.Title }}
 
-> {{ .Site.Params.Description }}
-
+> {{ .Site.Params.meta.homeDescription }}
 
 {{/* Articles */}}
 {{ range where (where (sort (.Site.GetPage "/blog/").Pages "Date" "desc") "Draft" "ne" true) "Sitemap.Disable" "ne" true }}
