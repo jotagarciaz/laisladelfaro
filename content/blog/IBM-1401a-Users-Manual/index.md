@@ -2,7 +2,7 @@
 title: "IBM 1401 a User's Manual"
 date: 2026-01-23T17:33:54+01:00
 image: "nathan-jennings-VsPsf4F5Pi0-unsplash.webp"
-draft: true
+draft: false
 author: "JotaGarciaz"
 tags:
    - music
