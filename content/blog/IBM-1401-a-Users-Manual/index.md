@@ -17,6 +17,6 @@ Johan Johannsson, compositor de bandas sonoras como la de la película "La teor�
 Cada pista representa un capítulo de ese antiguo manual de IBM y está inspirada en la grabación del propio padre del "mainframe" de los años 60. 
 El disco mezcla sonidos electrónicos con grabaciones de voz y ruidos mecánicos del ordenador, creando una atmósfera única que evoca la era temprana de la computación.
 
-Si te han entrado ganas de escuchar la obra, te hago una propuesta rápida, prepárate una bebida, relájate y accede al enlace de youtube:
+Si te han entrado ganas de escuchar la obra, te hago una propuesta rápida: prepárate una bebida, relájate y accede al enlace de youtube:
 
-{{< youtube "NCyGrcPqB2M&list=OLAK5uy_lgm4_uynUVsqZGftMs_mq30Eaz0FLjKN4" >}}
+{{< youtube "NCyGrcPqB2M?si=5uhB9_EZZRfzeOeT" >}}
