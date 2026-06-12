@@ -5,6 +5,17 @@
 
 <title>{{ if not .IsHome }}{{ if .Title }}{{ .Title }} - {{ end }}{{ end }}{{ .Site.Title }}</title>
 
+<script>
+(function() {
+  const themeKey = 'theme-preference';
+  const savedTheme = localStorage.getItem(themeKey);
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
+
 {{ $sass := resources.Get "scss/style.scss" }}
 {{ $style := $sass | css.Sass | minify | resources.Fingerprint "sha256" }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
