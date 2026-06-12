@@ -9,6 +9,9 @@
 {{ $style := $sass | css.Sass | minify | resources.Fingerprint "sha256" }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
+{{ $themeToggle := resources.Get "js/theme-toggle.js" | minify | resources.Fingerprint "sha256" }}
+<script type="text/javascript" src="{{ $themeToggle.RelPermalink }}" integrity="{{ $themeToggle.Data.Integrity }}"></script>
+
 {{- if (eq .Layout "search") }}
   {{ $fusejs := resources.Get "js/fuse.basic.min.js" }}
   {{ $search := resources.Get "js/search.js" }}

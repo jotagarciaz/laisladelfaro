@@ -14,17 +14,17 @@
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  box-shadow: 0 4px 8px -2px #000a3c1a;
-  background-color: #fff;
+  box-shadow: 0 4px 8px -2px var(--color-shadow);
+  background-color: var(--color-card-bg);
   overflow: hidden;
   transition: box-shadow .2s;
 
   &:hover {
-    box-shadow: 0 6px 12px -4px #001b4433;
+    box-shadow: 0 6px 12px -4px var(--color-shadow-hover);
   }
 
   &__inner {
-    color: #111111;
+    color: var(--color-text-secondary);
     text-decoration: none;
     flex: 1;
   }
@@ -59,7 +59,7 @@
 
   &__footer {
     padding: 1rem 1.4rem 1.6rem;
-    color: #93a5b1;
+    color: var(--color-text-tertiary);
     font-size: 1.1rem;
   }
 }

@@ -8,14 +8,14 @@
   position: relative;
   display: flex;
   align-items: center;
-  border: 1px solid #e6e3ed;
+  border: 1px solid var(--color-border);
   border-radius: 20px;
   margin-bottom: 3.2rem;
 
   &__label {
     position: absolute;
     left: 1.6rem;
-    color: #93a5b1;
+    color: var(--color-text-tertiary);
   }
 
   &__input {
@@ -26,6 +26,8 @@
     border: 0;
     border-radius: inherit;
     outline: none;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
   }
 }
 
@@ -57,7 +59,7 @@
   }
 
   &__footer {
-    color: #93a5b1;
+    color: var(--color-text-tertiary);
     font-size: 1.1rem;
   }
 }
